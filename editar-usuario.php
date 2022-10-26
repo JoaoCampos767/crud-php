@@ -17,7 +17,7 @@ $row = $res->fetch_object();
         <label>E-mail</label>
         <input type="text" class="form-control" name="email" value="<?php print $row->email ?>">
     </div>
-    <div class=" mb-3">
+    <div class="mb-3">
         <label>Senha</label>
         <input type="password" class="form-control" name="senha" required>
     </div>
@@ -25,7 +25,7 @@ $row = $res->fetch_object();
         <label>Data Nascimento</label>
         <input type="date" class="form-control" name="data_nasc" value="<?php print $row->data_nasc ?>">
     </div>
-    <div class=" mb-10">
+    <div class="mb-10">
         <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
 </form>

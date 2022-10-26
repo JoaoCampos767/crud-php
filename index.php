@@ -33,9 +33,9 @@
         </div>
     </nav>
 
-    <div className="container">
-        <div class="row">
-            <div class="col-md-5">
+    <div className="container" style="width: 100%;">
+        <div class="row" style="width: 100%;">
+            <div class="col-md-5" style="margin-left: 35rem;">
                 <?php
                 include("config.php");
                 switch (@$_REQUEST["page"]) {
